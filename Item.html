@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Josefien Matla</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="/main.js" defer></script>
+    <script src="/carousel.js"></script>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+   <nav class="navbar">
+    <div class="navbar__container">
+        <a href="" id="navbar__logo"> <i class="material-symbols-outlined">
+        check_circle </i> JM</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="/" class="navbar__links"> Home </a>
+        </li>
+        <li class="navbar__item">
+            <a href="Item.html" class="navbar__links"> Portfolio </a>
+        </li>
+        <li class="navbar__item">
+            <a href="About.html" class="navbar__links"> About </a>
+        </li>
+        <li class="navbar__btn">
+            <a href="/" class="button"> Say hello <Span> 👋 </Span></a>
+        </li>
+    </ul>
+    </div>
+   </nav>
+   <!-- Protfolio items work -->
+   <div class="work">
+    <h1> See my last work</h1>
+    <div class="work__container">
+        <div class="work__card">
+            <h2>Tippie and Toppie</h2>
+            <p> Language delay app</p>
+            <button data-modal-target="modal1"> See work</button>
+        </div>
+        <div class="work__card">
+            <h2>Internship</h2>
+            <p> My intern ad Triple</p>
+            <button data-modal-target="modal2"> See work</button>
+        </div>
+        <div class="work__card">
+            <h2>Megazine about gender</h2>
+            <p> What about you?</p>
+            <button data-modal-target="modal3"> See work</button>
+        </div>
+    </div>
+   </div>
+
+<!-- Pop-up for projects -->
+   <div class="model" id="modal1">
+    <div class="model__content">
+        <span class="model__close">&times;</span>
+        <div class="model__header">
+            <img src="/Images/Tippie header.svg" alt="picture ipad with application tippie and toppie">
+        </div>
+        <div class="model__body">
+            <div class="model__body-items-explain">
+                <h4>The project overview</h4>
+                <p>This project is my thesis, which I have made in cooperation with Triple. It is an application that interacts with a physical object to help children catch up or overcome their language deficiencies. For this project, I approached it as follows: 
+                    I did literature research, field research, brainstorm sessions and I tested it several times for validation. 
+                   </p>
+                   <p> Below are some initial ideas and the persona </p>
+            </div>
+            <div class="model__body-items">
+                <h4>Role</h4>
+                <p>Designer</p>
+                <h4>Deliverables</h4>
+                <p>Prototype <br>  Design rationale <br> Product biografie</p>
+            </div>
+    </div>
+</div>
+<div class="model" id="modal2">
+    <div class="model__content">
+        <span class="model__close">&times;</span>
+        <div class="model__header">
+            <img src="/Images/Triple intern.svg" alt="picture ipad with application tippie and toppie">
+        </div>
+        <div class="model__body">
+            <h1>Intern Triple</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="model__footer"></div>
+    </div>
+</div>
+<div class="model" id="modal3">
+    <div class="model__content">
+        <span class="model__close">&times;</span>
+        <div class="model__header">
+            <h1>VR Experts</h1>
+             <div class="model__header">
+            <img src="/Images/VR Expert.svg" alt="picture ipad with application tippie and toppie">
+        </div>
+        </div>
+        <div class="model__body">
+            <div class="model__body-items-explain">
+            <h4>The project overview</h4>
+            <p>This project is my thesis, which I have made in cooperation with Triple. It is an application that interacts with a physical object to help children catch up or overcome their language deficiencies. For this project, I approached it as follows: 
+                I did literature research, field research, brainstorm sessions and I tested it several times for validation. 
+               </p>
+               <p> Below are some initial ideas and the persona </p>
+        </div>
+        <div class="model__body-items">
+            <h4>Role</h4>
+            <p>Designer</p>
+            <h4>Deliverables</h4>
+            <p>Prototype <br>  Design rationale <br> Product biografie</p>
+        </div>
+        </div>
+        <div class="model__footer">
+        <div class="carousel">
+            <div class="carousel__item">content #1</div>
+            <div class="carousel__item carousel__item--selected">content #2</div>
+            <div class="carousel__item">content #3</div>
+        </div>
+        </div>
+    </div>
+</div>
+
+   <!-- Footer section -->
+   <div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2> About me</h2>
+                <a href="/"> How it works</a>
+                <a href="/"> Social media</a>
+                <a href="/"> Contact me</a>
+                <a href="/"> My work</a>
+            </div>
+            <div class="footer__link--items">
+                <h2> About me</h2>
+                <a href="/"> How it works</a>
+                <a href="/"> Social media</a>
+                <a href="/"> Contact me</a>
+                <a href="/"> My work</a>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2> Contact me</h2>
+                    <a href="/"> Email</a>
+                    <a href="/"> linkedin</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2> Socail media</h2>
+                    <a href="/"> Instagram</a>
+                    <a href="/"> Facebook</a>
+                    <a href="/"> Twitter</a>
+                    <a href="/"> Behance</a>
+                </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fas.faa-gem"></i>JM</a>
+            </div>
+            <p class="website__right">JM 2022. All rights reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+             </a>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <div class="social__icons">
+                            <a href="/" class="social__icon--link" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
